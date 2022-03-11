@@ -1,0 +1,11 @@
+INSERT INTO cities (name, country, population, area)
+VALUE               ('Tokyo', 'Japan', 38505000, 8223);
+
+insert by order:
+name -> Tokyo [order 1]
+country -> Japan [order 2]
+... etc
+
+note: if we swap for example population[integer] with country[string], it will raise an error
+    -> INSERT into cities (name, population, country, area) ... so on
+

@@ -1,0 +1,13 @@
+SELECT * FROM cities;
+
+> get all columns in cities' table
+> note: * means all columns
+
+We can change it to this example to get specific columns;
+SELECT name, contry FROM cities;
+
+> get column name, column contry from cities' table
+
+
+We can also can get one column multiple times;
+SELECT name, name, name FROM cities;
