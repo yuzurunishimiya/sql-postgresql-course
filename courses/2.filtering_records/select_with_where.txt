@@ -1,0 +1,10 @@
+Actual order inside query
+ex:
+    SELECT name, area FROM cities WHERE area > 5000;
+
+order 1: FROM cities
+order 2: WHERE area > 5000
+order 3: SELECT name, area
+
+So, i want to get data from cities' table where area greater than 5000 and only want to get name and area columns;
+
