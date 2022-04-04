@@ -1,0 +1,4 @@
+1. Table order between 'FROM' and 'JOIN' frequently makes a difference
+2. We Must give context if column names collide
+3. Tables can be renamed using the 'AS' keyword
+4. There are a few kind of joins
